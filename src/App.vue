@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <WrapperComponent/>
+<!--    <WrapperComponent/>-->
+    <money-component/>
   </div>
 </template>
 
 <script>
 import WrapperComponent from './components/WrapperComponent.vue'
+import MoneyComponent from './components/MoneyComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    WrapperComponent
+    WrapperComponent,
+    MoneyComponent,
   }
 }
 </script>
