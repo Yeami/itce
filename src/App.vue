@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-<!--    <WrapperComponent/>-->
-    <money-component/>
+    <WrapperComponent/>
+<!--    <money-component/>-->
   </div>
 </template>
 
